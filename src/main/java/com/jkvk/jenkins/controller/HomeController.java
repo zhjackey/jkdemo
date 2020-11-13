@@ -16,6 +16,6 @@ public class HomeController {
 
     @GetMapping("/index")
     public String index() {
-        return "greet from jenkins:" + System.currentTimeMillis();
+        return "greet from jenkins by git:" + System.currentTimeMillis();
     }
 }
